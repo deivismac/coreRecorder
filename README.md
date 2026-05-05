@@ -8,6 +8,8 @@ Captures the GTA window and produces an `.mp4` (with synthetic motion blur) or a
 
 Grab the latest `coreRecorder-vX.Y.Z.zip` from this repo (or the [Releases](../../releases) page). Unzip anywhere, run the exe once, then launch GTA.
 
+**Latest: v0.2.0** — new GPU window-capture backend (Windows.Graphics.Capture, the same one OBS uses). ~5% CPU vs the old gdigrab path's ~50%, captures only the FiveM window instead of your whole desktop, and output speed matches reality even on machines that run the game above the recorder's target framerate. See `README.txt` inside the zip for the full changelog.
+
 ## First-time setup
 
 1. Run `core-cinematics-recorder.exe` once. On first boot it:
